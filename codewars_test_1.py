@@ -1,7 +1,7 @@
 def create_phone_number():
-  num = []
+  num = [5615625]
   for i in range(10):
-    n = int(input('Enter a one-digit number:'))
+    n = int(input('Enter 1:'))
     num.append(n)
   return num
 
